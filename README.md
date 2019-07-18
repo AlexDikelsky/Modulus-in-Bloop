@@ -1,10 +1,8 @@
 # Modulus-in-Bloop
 
-
-DEFINE PROCEDURE ''MOD'' [N,D]:
-
-BLOCK 0: BEGIN
-
+```
+  DEFINE PROCEDURE ''MOD'' [N,D]:
+  BLOCK 0: BEGIN
   LOOP AT MOST N TIMES:
   
   BLOCK 1: BEGIN
@@ -30,3 +28,4 @@ BLOCK 0: BEGIN
 BLOCK 0: END.
 
 MOD[15, 14];
+```
