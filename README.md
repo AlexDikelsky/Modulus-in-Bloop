@@ -1,10 +1,12 @@
 # Modulus-in-Bloop
 
-View as raw
 
 DEFINE PROCEDURE ''MOD'' [N,D]:
+
 BLOCK 0: BEGIN
+
   LOOP AT MOST N TIMES:
+  
   BLOCK 1: BEGIN
     IF OUTPUT + D > N, THEN:
     BLOCK 2: BEGIN
